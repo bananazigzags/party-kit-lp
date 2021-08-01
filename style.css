@@ -1,0 +1,62 @@
+body {
+  width: 800px;
+  margin: auto;
+}
+#header-img {
+  width: 50px;
+  height: 50px;  
+}
+h1 {
+  font-size: 18px;
+  margin-left: 10px;
+  color: white;
+  }
+#header {
+  display: flex;
+  background-color: blue;
+  position: fixed;
+  }
+#nav-bar {
+  margin-left: 100px;
+  margin-top: 15px;
+  background-color: blue;
+  }
+.nav-link {
+  color: white;
+}
+p {
+  width: 600px;
+  font-size: 18px;
+}
+@media (max-width: 500px) {
+ 
+  #video {
+    width: 350px;
+  }
+  body {
+  width: 400px;
+  margin: auto;
+}
+   p {
+  width: 350px;
+  font-size: 16px;
+  margin-left: 5px;
+}
+  
+ #nav-bar {
+  margin-left: 30px;
+  margin-top: 10px;
+  background-color: blue;
+  }
+  
+  #about {
+    margin-top: 65px;
+  }
+}
+
+.kit {
+  width: 200px;
+}
+#products {
+  display: flex;
+}
